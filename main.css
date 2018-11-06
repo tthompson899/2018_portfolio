@@ -1,3 +1,6 @@
+body {
+    background-color: lightgrey;
+}
 .nav-wrapper {
     background-color: #e5f2ff;
 }
@@ -10,6 +13,27 @@ nav ul a {
 
 #header_image {
     width: 100%;
+}
+
+#aboutMe {
+    height: auto;
+    background-color: #e5f2ff;
+}
+
+#pic_tiffany {
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+    margin: 0 10px 10px 50px;
+}
+
+#about-me-text {
+    display: flex;
+}
+
+#about-me-youtube-link {
+    display: contents;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
