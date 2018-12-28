@@ -3,4 +3,4 @@ images/
 .idea/
 bower.json
 bower_components/
-/js/secret.js
+js/secret.js
