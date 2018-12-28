@@ -15,6 +15,7 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="js/secret.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -24,7 +25,7 @@
             <ul class="hide-on-med-and-down">
                 <li><a href="#aboutMe">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Youtube</a></li>
+                <li><a href="#youtube">Youtube</a></li>
                 <li><a href="http://www.blog.tthompson899.net" target="_blank">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -34,7 +35,7 @@
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#aboutMe">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#">Youtube</a></li>
+        <li><a href="#youtube">Youtube</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
@@ -48,12 +49,24 @@
                 <img src="images/tiffany_thompson_original.png" alt="woman smiling" id="pic_tiffany">
                 Greetings, My name is Tiffany! I learned about code back in my college days back in 2006 and have
                 been hooked ever since. I enjoy building web apps that live online. In March of 2017, I decided to
-                start documenting my journey in tech on YouTube - Join me on my <a id="about-me-youtube-link" target="_blank" href="https://bit.ly/2PFuV6E">channel</a>!
+                start documenting my journey in tech on YouTube - Join me on my <a id="about-me-youtube-link" target="_blank" href="https://bit.ly/2PFuV6E">channel</a>
+                !
             </p>
+            <!--<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback"></script>-->
+            <!--<div class="g-ytsubscribe" data-channel="tiffalwaysfly" data-layout="default" data-theme="dark" data-count="hidden"></div>-->
         </div>
         <div class="col l12 s12" id="projects">
             <h2>Projects</h2>
             <p>...WORK IN PROGRESS...</p>
+        </div>
+        <div class="col l12 s12" id="youtube">
+            <h2>Youtube</h2>
+            <h4>Latest Video...</h4>
+            <div id="player0"></div>
+            <div id="player1"></div>
+            <div id="player2"></div>
+
+            <p></p>
         </div>
     </div>
 </body>
