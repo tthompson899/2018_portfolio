@@ -11,6 +11,10 @@ nav ul a {
     font-size: 18pt;
 }
 
+header  {
+    height: 263px;
+}
+
 #header_image {
     width: 100%;
 }
@@ -18,6 +22,11 @@ nav ul a {
 #aboutMe {
     height: auto;
     background-color: #e5f2ff;
+}
+
+#projects {
+    height: auto;
+    background-color: #99bee3;
 }
 
 #pic_tiffany {
@@ -41,7 +50,7 @@ nav ul a {
         width: 1200px;
     }
 
-    #header_image {
+    #header_image, #aboutMe, #projects {
         width: 1200px;
     }
 }
