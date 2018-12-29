@@ -51,12 +51,21 @@ header  {
     background-color: #C71585;
 }
 
-#video-title {
+#video-title, #blog-title {
     text-align: center;
     font-size: 25pt;
     font-weight: bold;
     font-style: italic;
     font-family: 'Major Mono Display', monospace;
+}
+
+#blog-title {
+    font-family: 'Charm', cursive;
+}
+
+#blog-content-snippet {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30pt;
 }
 
 .video-container iframe {
@@ -72,7 +81,7 @@ header  {
         width: 1200px;
     }
 
-    #header_image, #aboutMe, #projects, #youtube {
+    #header_image, #aboutMe, #projects, #youtube, #blog {
         width: 1200px;
     }
 }
