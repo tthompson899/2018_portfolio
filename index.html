@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Major+Mono+Display" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
     <!-- My CSS -->
@@ -21,18 +21,20 @@
     <script src="js/main.js"></script>
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="hide-on-med-and-down">
-                <li><a href="#aboutMe">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#youtube">Youtube</a></li>
-                <li><a href="http://www.blog.tthompson899.net" target="_blank">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down brand-logo center">
+                    <li><a href="#aboutMe">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#youtube">Youtube</a></li>
+                    <li><a href="http://www.blog.tthompson899.net" target="_blank">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#aboutMe">About</a></li>
