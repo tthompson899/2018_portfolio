@@ -45,3 +45,28 @@ function onYouTubeIframeAPIReady() {
     console.error(error);
   });
 }
+
+const request = new Request('http://www.blog.tthompson899.net/wp-json/wp/v2/posts?per_page=1&order=desc&orderBy=date');
+const URL = request.url;
+const method = request.method;
+
+fetch(request).then(response => {
+  if (response.status === 200) {
+    return response.json();
+  }
+  else {
+    throw new Error('Something went wrong on Wordpress api server!');
+  }
+}).then(response => {
+  let blogTitleDiv = document.getElementById('blog-title');
+  blogTitleDiv.innerHTML += response[0].title.rendered;
+
+  let excerptContentDiv = document.getElementById('blog-content-snippet');
+  excerptContentDiv.innerHTML += response[0].excerpt.rendered;
+
+  // open link for blog post in new window
+  let getLinkForExcerpt = excerptContentDiv.getElementsByTagName('a');
+  getLinkForExcerpt[0].setAttribute('target', '_blank');
+}).catch(error => {
+  console.error(error);
+});
