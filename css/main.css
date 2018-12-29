@@ -5,11 +5,15 @@ body {
     background-color: #e5f2ff;
 }
 
-nav ul a {
+nav ul a, .section-title {
     color: #242424;
     font-weight: bold;
     font-size: 25pt;
     font-family: 'Dosis', sans-serif;
+}
+
+.section-title {
+    font-size: 50pt;
 }
 
 header  {
@@ -31,14 +35,20 @@ header  {
 }
 
 #pic_tiffany {
-    height: 175px;
-    width: 175px;
+    height: 30%;
+    width: 28%;
     border-radius: 10px;
-    margin: 0 10px 10px 50px;
 }
 
 #about-me-text {
-    display: flex;
+    width: 70%;
+    margin-top: 0;
+}
+
+.about-me-content {
+    margin-bottom: 2%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15pt;
 }
 
 #about-me-youtube-link {
