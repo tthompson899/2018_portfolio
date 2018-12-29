@@ -45,7 +45,7 @@ header  {
     margin-top: 0;
 }
 
-.about-me-content {
+.about-me-content, #youtube-channel-info {
     margin-bottom: 2%;
     font-family: 'Dosis', sans-serif;
     font-size: 15pt;
@@ -59,6 +59,58 @@ header  {
 #youtube {
     height: auto;
     background-color: #C71585;
+}
+
+#large-font {
+    font-size: 24pt;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#overline {
+    text-decoration-line: overline;
+    font-size: 21pt;
+    color: lightgreen;
+}
+
+#double-underline {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #fff;
+}
+
+#wavy-underline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    display: inline-block;
+    transform: rotate(5deg);
+}
+
+#dotted-underline {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: #e5f2ff;
+    letter-spacing: 0.3em;
+    font-weight: bolder;
+}
+
+#small-font {
+    font-size: small;
+}
+
+#uppercase-bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFF00;
+}
+
+#italicize-large {
+    font-style: italic;
+    font-size: larger;
+    color: #1e90ff;
+    background-color: #fff;
 }
 
 #video-title, #blog-title {
