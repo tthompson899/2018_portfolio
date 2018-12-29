@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
     <!-- My CSS -->
@@ -52,8 +54,6 @@
                 start documenting my journey in tech on YouTube - Join me on my <a id="about-me-youtube-link" target="_blank" href="https://bit.ly/2PFuV6E">channel</a>
                 !
             </p>
-            <!--<script src="https://apis.google.com/js/platform.js?onload=onLoadCallback"></script>-->
-            <!--<div class="g-ytsubscribe" data-channel="tiffalwaysfly" data-layout="default" data-theme="dark" data-count="hidden"></div>-->
         </div>
         <div class="col l12 s12" id="projects">
             <h2>Projects</h2>
@@ -61,10 +61,11 @@
         </div>
         <div class="col l12 s12" id="youtube">
             <h2>Youtube</h2>
-            <h4>Latest Video...</h4>
-            <div id="player"></div>
-
-            <p></p>
+            <h4>Watch my Latest Video...</h4>
+            <p id="video-title"></p>
+            <div class="video-container">
+                <div id="player"></div>
+            </div>
         </div>
     </div>
 </body>

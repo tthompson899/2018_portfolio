@@ -50,15 +50,28 @@ header  {
     background-color: #C71585;
 }
 
-#player0, #player1, #player2 {
-    display: block;
+#video-title {
+    text-align: center;
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Major Mono Display', monospace;
 }
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 75%;
+    height: 75%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
     nav .nav-wrapper {
         width: 1200px;
     }
 
-    #header_image, #aboutMe, #projects {
+    #header_image, #aboutMe, #projects, #youtube {
         width: 1200px;
     }
 }
