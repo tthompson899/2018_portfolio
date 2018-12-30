@@ -138,12 +138,22 @@ header  {
     height: 75%;
 }
 
+#contact {
+    background-color: #008080;
+    height: auto;
+    opacity: 0.9;
+}
+
+#contact-social-media-icons a {
+    margin-left: 15px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
     nav .nav-wrapper {
         width: 1200px;
     }
 
-    #header_image, #aboutMe, #projects, #youtube, #blog {
+    #header_image, #aboutMe, #projects, #youtube, #blog, #contact {
         width: 1200px;
     }
 }
