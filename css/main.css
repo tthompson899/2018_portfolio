@@ -12,6 +12,10 @@ nav ul a, .section-title {
     font-family: 'Dosis', sans-serif;
 }
 
+.row {
+    margin-bottom: 0;
+}
+
 .section-title {
     font-size: 50pt;
 }
@@ -121,6 +125,9 @@ header  {
     font-family: 'Major Mono Display', monospace;
 }
 
+#blog {
+    background-color: #008080;
+}
 #blog-title {
     font-family: 'Charm', cursive;
 }
@@ -139,13 +146,27 @@ header  {
 }
 
 #contact {
-    background-color: #008080;
-    height: auto;
-    opacity: 0.9;
+    height: 275px;
 }
 
 #contact-social-media-icons a {
     margin-left: 15px;
+}
+
+footer {
+    background-color: #e5f2ff;
+    height: 64px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15pt;
+}
+
+.footer-copyright {
+    padding-top: 20px;
+}
+
+#footer-content {
+    margin: 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
