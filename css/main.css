@@ -170,6 +170,9 @@ footer {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
     nav .nav-wrapper {
         width: 1200px;
     }
