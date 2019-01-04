@@ -21,16 +21,17 @@ nav ul a, .section-title {
 }
 
 header  {
-    height: 263px;
+    height: auto;
 }
 
 #header_image {
     width: 100%;
+    margin-bottom: -5px;
 }
 
 #aboutMe {
     height: auto;
-    background-color: #e5f2ff;
+    /*background-color: #e5f2ff;*/
 }
 
 #projects {
@@ -62,7 +63,8 @@ header  {
 
 #youtube {
     height: auto;
-    background-color: #C71585;
+    /*background-color: #C71585;*/
+    background-color: #1e90ff;
 }
 
 #large-font {
@@ -126,7 +128,8 @@ header  {
 }
 
 #blog {
-    background-color: #008080;
+    /*background-color: #008080;*/
+    background-color: #e5f2ff;
 }
 #blog-title {
     font-family: 'Charm', cursive;
@@ -147,6 +150,7 @@ header  {
 
 #contact {
     height: 275px;
+    background-color: #c1c1c1;
 }
 
 #contact-social-media-icons a {
