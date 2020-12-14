@@ -46,7 +46,7 @@ function onYouTubeIframeAPIReady() {
   });
 }
 
-const request = new Request('https://www.blog.tthompson899.net/wp-json/wp/v2/posts?_jsonp=receiveData&per_page=1&order=desc&orderBy=date');
+const request = new Request('https://www.blog.tthompson899.net/wp-json/wp/v2/posts/?_jsonp=receiveData&per_page=1&order=desc&orderBy=date');
 const URL = request.url;
 const method = request.method;
 
