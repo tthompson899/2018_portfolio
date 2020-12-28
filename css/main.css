@@ -12,6 +12,11 @@ nav ul a, .section-title {
     font-family: 'Dosis', sans-serif;
 }
 
+    .nav-wrapper ul.hide-on-med-and-down.brand-logo {
+        position: relative;
+        height: 100%;
+    }
+
 .row {
     margin-bottom: 0;
 }
@@ -159,6 +164,22 @@ header  {
     display: none;
 }
 
+div#newsletter {
+    padding: 0px 0px 0px 0px;
+}
+    #newsletter form.formkit-form[data-uid="6e713da820"] {
+        max-width: 100%;
+    }
+
+        #newsletter input.formkit-input {
+            width: 50%;
+        }
+
+        #newsletter button.formkit-submit {
+            max-width: 50%;
+            margin-left: 25%;
+        }
+
 footer {
     background-color: #e5f2ff;
     height: 64px;
@@ -194,8 +215,8 @@ footer {
     }
 
     #pic_tiffany {
-        width: 55%;
-        margin-left: 23%;
+        width: 30%;
+        margin-left: 35%;
     }
 
     #about-me-text {
@@ -210,6 +231,10 @@ footer {
 
     #youtube {
         padding-bottom: 5%;
+    }
+
+    #blog-content-snippet {
+        font-size: 25pt;
     }
 
     #mobile-contact-social-media-icons {
